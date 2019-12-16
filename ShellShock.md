@@ -90,7 +90,7 @@ bash读取了环境变量，在定义foo之后直接调用了后面的函数。
 
 ## 1.攻击Set-UID程序
 
-通过攻击Set-UID程序来获得root权限。
+通过攻击Set-UID程序来获得 `root` 权限。
 
 首先，确保安装了带有漏洞的bash版本，并让/bin/sh 指向/bin/bash.
 
